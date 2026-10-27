@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350" fill="none">
+  <!-- Latar belakang kartu ilustrasi -->
+  <rect width="600" height="350" fill="#f8faf9" rx="12"/>
+  <rect x="1" y="1" width="598" height="348" fill="none" stroke="#d8e5df" stroke-width="1.5" rx="12"/>
+
+  <!-- Judul alur pengomposan -->
+  <rect x="150" y="18" width="300" height="30" rx="15" fill="#eaf7ed" stroke="#52b788" stroke-width="1.2"/>
+  <text x="300" y="38" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" fill="#1b4332" text-anchor="middle">Siklus Pengomposan Sampah Organik Dapur</text>
+
+  <!-- Bagian 1: Wadah Komposter Ember -->
+  <!-- Tutup ember komposter -->
+  <rect x="70" y="75" width="130" height="12" rx="4" fill="#2d6a4f"/>
+  <rect x="115" y="65" width="40" height="10" rx="3" fill="#1b4332"/>
+
+  <!-- Badan ember komposter (trapesium) -->
+  <polygon points="75,87 195,87 185,275 85,275" fill="#ffffff" stroke="#1b4332" stroke-width="2.5"/>
+
+  <!-- Lapisan-lapisan bahan kompos di dalam wadah -->
+  <!-- Lapisan 1: Bahan cokelat dasar (karbon) -->
+  <polygon points="85,275 185,275 183,235 87,235" fill="#b08968"/>
+  <text x="135" y="258" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">Karbon (Daun Cokelat)</text>
+
+  <!-- Lapisan 2: Bahan hijau (nitrogen) -->
+  <polygon points="87,235 183,235 181,195 89,195" fill="#52b788"/>
+  <text x="135" y="218" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" fill="#081c15" text-anchor="middle">Nitrogen (Sisa Sayur)</text>
+
+  <!-- Lapisan 3: Bahan cokelat kedua -->
+  <polygon points="89,195 181,195 179,155 91,155" fill="#c49a6c"/>
+  <text x="135" y="178" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">Karbon (Cacahan Kardus)</text>
+
+  <!-- Lapisan 4: Bahan hijau kedua -->
+  <polygon points="91,155 179,155 177,115 93,115" fill="#74c69d"/>
+  <text x="135" y="138" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" fill="#081c15" text-anchor="middle">Nitrogen (Kulit Buah)</text>
+
+  <!-- Lubang aerasi di bagian bawah ember -->
+  <circle cx="105" cy="265" r="3" fill="#ffffff"/>
+  <circle cx="120" cy="265" r="3" fill="#ffffff"/>
+  <circle cx="135" cy="265" r="3" fill="#ffffff"/>
+  <circle cx="150" cy="265" r="3" fill="#ffffff"/>
+  <circle cx="165" cy="265" r="3" fill="#ffffff"/>
+
+  <!-- Label wadah komposter -->
+  <rect x="55" y="290" width="160" height="24" rx="6" fill="#eaf7ed" stroke="#40916c" stroke-width="1"/>
+  <text x="135" y="306" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#1b4332" text-anchor="middle">Wadah Komposter Berlubang Aerasi</text>
+
+  <!-- Bagian 2: Alur Proses Dekomposisi Tengah -->
+  <!-- Panah alur proses atas -->
+  <path d="M 205 130 Q 255 110 305 130" stroke="#40916c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="305,130 293,123 297,135" fill="#40916c"/>
+
+  <!-- Kotak info proses sirkulasi oksigen -->
+  <rect x="235" y="145" width="130" height="70" rx="8" fill="#ffffff" stroke="#d8e5df" stroke-width="1.5"/>
+  <circle cx="300" cy="165" r="10" fill="#d8f3dc"/>
+  <path d="M 297 168 L 300 160 L 303 168" stroke="#1b4332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="300" y="188" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10" font-weight="700" fill="#1b4332" text-anchor="middle">Sirkulasi Oksigen</text>
+  <text x="300" y="202" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" fill="#4b5563" text-anchor="middle">Pengadukan 1x Seminggu</text>
+
+  <!-- Panah alur proses bawah -->
+  <path d="M 305 235 Q 355 255 405 235" stroke="#40916c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <polygon points="405,235 393,230 397,242" fill="#40916c"/>
+
+  <!-- Waktu pematangan -->
+  <rect x="245" y="240" width="110" height="20" rx="10" fill="#eaf7ed"/>
+  <text x="300" y="254" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#2d6a4f" text-anchor="middle">Waktu: 4 hingga 6 Minggu</text>
+
+  <!-- Bagian 3: Hasil Akhir Kompos Jadi dan Manfaat -->
+  <!-- Pot / gundukan tanah kompos -->
+  <ellipse cx="485" cy="265" rx="75" ry="20" fill="#2b1810"/>
+  <path d="M 415 265 Q 485 190 555 265 Z" fill="#4a2e1b"/>
+  <ellipse cx="485" cy="245" rx="55" ry="12" fill="#5c3822" opacity="0.6"/>
+
+  <!-- Tanaman bertunas subur tumbuh dari kompos -->
+  <!-- Batang utama -->
+  <path d="M 485 240 Q 487 180 485 140" stroke="#2d6a4f" stroke-width="4" stroke-linecap="round"/>
+  <!-- Daun kiri 1 -->
+  <path d="M 485 200 C 460 195 450 175 455 165 C 470 170 480 185 485 200 Z" fill="#52b788"/>
+  <!-- Daun kanan 1 -->
+  <path d="M 485 180 C 510 175 520 155 515 145 C 500 150 490 165 485 180 Z" fill="#74c69d"/>
+  <!-- Daun puncak -->
+  <path d="M 485 140 C 475 115 485 105 485 105 C 485 105 495 115 485 140 Z" fill="#40916c"/>
+
+  <!-- Butiran nutrisi mikro di tanah -->
+  <circle cx="450" cy="255" r="2.5" fill="#d4a373"/>
+  <circle cx="475" cy="260" r="2.5" fill="#d4a373"/>
+  <circle cx="510" cy="255" r="2.5" fill="#d4a373"/>
+  <circle cx="525" cy="258" r="2.5" fill="#d4a373"/>
+
+  <!-- Label hasil kompos -->
+  <rect x="405" y="290" width="160" height="24" rx="6" fill="#eaf7ed" stroke="#40916c" stroke-width="1"/>
+  <text x="485" y="306" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#1b4332" text-anchor="middle">Kompos Organik Kaya Nutrisi</text>
+
+  <!-- Tag manfaat lingkungan -->
+  <rect x="425" y="60" width="125" height="22" rx="4" fill="#1b4332"/>
+  <text x="487" y="75" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#d8f3dc" text-anchor="middle">Bebas Emisi Metana TPA</text>
+</svg>

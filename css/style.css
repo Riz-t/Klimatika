@@ -711,3 +711,16 @@ a.card-clickable:hover .btn-card {
   color: var(--color-text-main);
   display: block;
 }
+
+/* Komponen daftar langkah bernomor */
+.step-list {
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.step-list li {
+  margin-bottom: 0.6rem;
+  padding-left: 0.35rem;
+}
