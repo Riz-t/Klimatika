@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" fill="none">
+  <rect width="500" height="320" fill="#f8faf9" rx="12"/>
+  
+  <!-- Jejak Kaki Karbon Utama -->
+  <path d="M190 280 C140 280 130 210 145 150 C155 105 180 70 230 70 C280 70 300 110 305 150 C310 210 250 280 190 280 Z" fill="#2d6a4f" opacity="0.15"/>
+  <circle cx="230" cy="45" r="14" fill="#2d6a4f" opacity="0.2"/>
+  <circle cx="270" cy="55" r="12" fill="#2d6a4f" opacity="0.2"/>
+  <circle cx="305" cy="75" r="10" fill="#2d6a4f" opacity="0.2"/>
+  <circle cx="335" cy="100" r="9" fill="#2d6a4f" opacity="0.2"/>
+  <circle cx="360" cy="130" r="8" fill="#2d6a4f" opacity="0.2"/>
+
+  <!-- Ikon Pabrik dan Emisi (Kiri) -->
+  <rect x="70" y="160" width="60" height="60" fill="#4b5563" rx="4"/>
+  <polygon points="70,160 85,130 85,160 100,130 100,160" fill="#374151"/>
+  <path d="M90 120 Q95 105 85 95 Q100 85 95 70" stroke="#9ca3af" stroke-width="4" stroke-linecap="round"/>
+  <text x="100" y="240" font-family="sans-serif" font-size="11" font-weight="700" fill="#4b5563" text-anchor="middle">Industri dan Listrik</text>
+
+  <!-- Ikon Transportasi Fosil (Tengah) -->
+  <rect x="210" y="180" width="80" height="30" fill="#e76f51" rx="6"/>
+  <circle cx="230" cy="215" r="9" fill="#1f2937"/>
+  <circle cx="270" cy="215" r="9" fill="#1f2937"/>
+  <path d="M295 195 Q310 190 320 185" stroke="#9ca3af" stroke-width="3" stroke-linecap="round"/>
+  <text x="250" y="240" font-family="sans-serif" font-size="11" font-weight="700" fill="#e76f51" text-anchor="middle">Transportasi Fosil</text>
+
+  <!-- Ikon Pohon dan Penyerapan Karbon (Kanan) -->
+  <circle cx="400" cy="160" r="28" fill="#52b788"/>
+  <circle cx="380" cy="175" r="20" fill="#40916c"/>
+  <circle cx="420" cy="175" r="22" fill="#2d6a4f"/>
+  <rect x="396" y="185" width="8" height="35" fill="#8d5b4c" rx="2"/>
+  <text x="400" y="240" font-family="sans-serif" font-size="11" font-weight="700" fill="#1b4332" text-anchor="middle">Solusi Alami: Hutan</text>
+
+  <!-- Teks Bawah -->
+  <text x="250" y="285" font-family="sans-serif" font-size="13" font-weight="700" fill="#1b4332" text-anchor="middle">Kurangi Jejakmu, Tingkatkan Daya Serap Bumi</text>
+</svg>

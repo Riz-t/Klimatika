@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Klimatika - Platform Edukasi Aksi Iklim (SDG 13).">
+  <meta name="description" content="Materi edukasi sains perubahan iklim, efek rumah kaca, jejak karbon per sektor, serta bukti data konsensus IPCC dan BMKG.">
   <title>Edukasi Sains dan Krisis Iklim - Klimatika</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -34,6 +34,7 @@
 
   <!-- Konten utama halaman -->
   <main id="main-content">
+    
     <!-- Header awal halaman edukasi -->
     <header class="page-header">
       <div class="container">
@@ -44,15 +45,94 @@
       </div>
     </header>
 
-    <!-- Bagian placeholder konten edukasi -->
+    <!-- Bagian penjelasan cuaca vs iklim -->
     <section>
       <div class="container">
-        <h2 class="section-title">Konsep Dasar Cuaca dan Iklim</h2>
-        <p class="section-desc">
-          Materi sains mendalam akan ditambahkan pada tahap implementasi konten berikutnya.
-        </p>
+        <div class="grid-2" style="align-items: center;">
+          <div>
+            <h2 class="section-title">Perbedaan Mendasar: Cuaca dan Iklim</h2>
+            <p style="margin-bottom: 1rem; color: var(--color-text-muted);">
+              Cuaca adalah kondisi atmosfer dalam rentang waktu singkat (jam hingga hari) di wilayah tertentu, seperti hujan lokal hari ini. Sebaliknya, iklim adalah rata-rata pola cuaca dalam rentang waktu minimal 30 tahun sesuai standar Badan Meteorologi Dunia (WMO).
+            </p>
+            <p style="color: var(--color-text-muted);">
+              Ketika membahas perubahan iklim, kita membicarakan pergeseran rata-rata statistik iklim global secara permanen akibat penebalan selimut gas rumah kaca di atmosfer.
+            </p>
+          </div>
+          <div class="diagram-box">
+            <img src="images/greenhouse.svg" alt="Diagram mekanisme efek rumah kaca dan radiasi matahari">
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- Bagian anatomi gas rumah kaca utama -->
+    <section class="section-alt">
+      <div class="container">
+        <header>
+          <h2 class="section-title">Gas Rumah Kaca Utama</h2>
+          <p class="section-desc">
+            Secara alami gas rumah kaca menjaga suhu bumi tetap layak huni (+15°C). Namun konsentrasi yang berlebihan akibat pembakaran bahan bakar fosil menyebabkan panas terperangkap berlebih.
+          </p>
+        </header>
+
+        <div class="grid-4">
+          <article class="gas-card">
+            <h3>Karbon Dioksida (CO₂)</h3>
+            <p>Berasal dari pembakaran batu bara, minyak bumi, deforestasi hutan tropis, dan industri semen.</p>
+          </article>
+
+          <article class="gas-card">
+            <h3>Metana (CH₄)</h3>
+            <p>Berasal dari sendawa peternakan sapi, pembusukan sampah organik di TPA, dan tambang gas bumi.</p>
+          </article>
+
+          <article class="gas-card">
+            <h3>Dinitrogen Oksida (N₂O)</h3>
+            <p>Berasal dari pemupukan kimia sintetis pertanian, pembakaran biomassa, dan limbah industri.</p>
+          </article>
+
+          <article class="gas-card">
+            <h3>Gas Fluorinasi (F-Gas)</h3>
+            <p>Gas buatan untuk bahan pendingin AC, kulkas komersial, dan pelarut industri elektronik.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian sektor penyumbang emisi -->
+    <section>
+      <div class="container">
+        <div class="grid-2" style="align-items: center;">
+          <div class="diagram-box">
+            <img src="images/carbon-footprint.svg" alt="Diagram proporsi jejak karbon per sektor ekonomi">
+          </div>
+          <div>
+            <h2 class="section-title">Sektor Penyumbang Jejak Karbon Terbesar</h2>
+            <p style="margin-bottom: 1.25rem; color: var(--color-text-muted);">
+              Berdasarkan laporan global IPCC, berikut pembagian sektor ekonomi utama penghasil emisi gas rumah kaca di dunia:
+            </p>
+            <ul class="bullet-list">
+              <li><strong>Sektor Energi dan Listrik (73.2%):</strong> Pembangkit listrik batu bara, industri manufaktur, dan transportasi berbahan bakar bensin.</li>
+              <li><strong>Pertanian dan Kehutanan (18.4%):</strong> Pembukaan lahan hutan tropis, peternakan, dan kebakaran gambut.</li>
+              <li><strong>Proses Industri Kimia (5.2%):</strong> Reaksi kimia langsung pada pembuatan semen dan baja.</li>
+              <li><strong>Pengolahan Limbah (3.2%):</strong> Gas metana dari tumpukan sampah basah di tempat pembuangan akhir.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian navigasi ke panduan aksi -->
+    <section class="section-alt">
+      <div class="container">
+        <h2 class="section-title">Langkah Berikutnya: Aksi Nyata</h2>
+        <p class="section-desc">
+          Memahami dasar sains krisis iklim adalah fondasi awal. Langkah selanjutnya adalah mempelajari katalog tindakan praktis yang dapat kita lakukan sehari-hari.
+        </p>
+        <a href="panduan.html" class="btn btn-primary">Buka Panduan Aksi Berkelanjutan</a>
+      </div>
+    </section>
+
   </main>
 
   <!-- Bagian footer situs -->
@@ -83,7 +163,7 @@
         <div>
           <h3 class="footer-heading">Komitmen SDG 13</h3>
           <p style="font-size: 0.9rem; color: #b7e4c7;">
-            Mengintegrasikan tindakan mitigasi dan adaptasi perubahan iklim ke dalam kesadaran hidup harian masyarakat.
+            Edukasi masyarakat mengenai fakta sains merupakan pilar utama membangun ketahanan iklim jangka panjang.
           </p>
         </div>
       </div>
