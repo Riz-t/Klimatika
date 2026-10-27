@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" fill="none">
+  <rect width="500" height="320" fill="#fdfbf7" rx="12"/>
+  
+  <!-- Matahari Terik dan Kekeringan -->
+  <circle cx="420" cy="70" r="30" fill="#e76f51"/>
+  <circle cx="420" cy="70" r="40" stroke="#f4a261" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Tanah Pertanian Retak -->
+  <path d="M0 220 Q250 200 500 220 L500 320 L0 320 Z" fill="#ddb892"/>
+  <path d="M100 240 L130 270 L150 260 M220 230 L250 280 L280 250 M360 240 L380 275" stroke="#7f4f24" stroke-width="2"/>
+
+  <!-- Tanaman Padi Menguning -->
+  <path d="M70 230 Q60 190 50 170 M70 230 Q80 180 90 160" stroke="#e9c46a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M190 225 Q180 185 170 165 M190 225 Q200 180 215 160" stroke="#e9c46a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M310 225 Q300 180 295 160 M310 225 Q325 185 335 165" stroke="#e9c46a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Badai Hujan Mendadak di Sebelah Kiri -->
+  <ellipse cx="140" cy="65" rx="50" ry="25" fill="#6c757d" opacity="0.8"/>
+  <path d="M110 95 L95 125 M135 95 L120 125 M160 95 L145 125" stroke="#4a90e2" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Label Anomali Cuaca -->
+  <rect x="150" y="260" width="200" height="40" fill="#ffffff" rx="6" stroke="#e76f51"/>
+  <text x="250" y="285" font-family="sans-serif" font-size="12" font-weight="700" fill="#e76f51" text-anchor="middle">Anomali Musim Tanam</text>
+</svg>

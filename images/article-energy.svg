@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" fill="none">
+  <rect width="500" height="320" fill="#f4f9f6" rx="12"/>
+
+  <!-- Langit Biru Bersih -->
+  <path d="M0 0 H500 V180 H0 Z" fill="#e8f4f8"/>
+  <circle cx="250" cy="50" r="30" fill="#ffb703"/>
+
+  <!-- Perbukitan Hijau -->
+  <path d="M0 240 Q160 190 320 230 Q420 250 500 210 L500 320 L0 320 Z" fill="#52b788" opacity="0.7"/>
+  <path d="M0 260 Q180 230 360 260 Q440 270 500 245 L500 320 L0 320 Z" fill="#2d6a4f"/>
+
+  <!-- Turbin Angin Bersih -->
+  <rect x="110" y="100" width="4" height="110" fill="#ffffff" rx="2"/>
+  <circle cx="112" cy="100" r="6" fill="#1b4332"/>
+  <path d="M112 100 L75 70 M112 100 L150 70 M112 100 L112 145" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Panel Surya Modern -->
+  <polygon points="280,240 360,230 390,270 300,285" fill="#1b4332" stroke="#52b788" stroke-width="2"/>
+  <line x1="320" y1="235" x2="345" y2="277" stroke="#52b788" stroke-width="2"/>
+  <line x1="290" y1="262" x2="375" y2="250" stroke="#52b788" stroke-width="2"/>
+
+  <!-- Simbol Listrik Bersih -->
+  <polygon points="245,140 235,160 248,160 238,180 258,155 246,155" fill="#ffb703"/>
+</svg>

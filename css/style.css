@@ -724,3 +724,52 @@ a.card-clickable:hover .btn-card {
   margin-bottom: 0.6rem;
   padding-left: 0.35rem;
 }
+
+/* Gambar artikel utama tanpa crop */
+.article-featured-img {
+  background-color: var(--color-surface-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  min-height: 250px;
+}
+
+.article-featured-img img {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+/* Akordion tanya jawab */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.faq-item {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+
+.faq-question {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.faq-question:hover {
+  color: var(--color-primary-light);
+}
+
+.faq-answer {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
