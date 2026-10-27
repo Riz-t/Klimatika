@@ -644,3 +644,70 @@ a.card-clickable:hover .btn-card {
   font-size: 0.9rem;
   color: var(--color-text-muted);
 }
+
+/* Komponen daftar poin rapi anti-cutoff di layar seluler */
+.bullet-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.75rem 0;
+}
+
+.bullet-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.bullet-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0.25rem;
+  color: var(--color-primary-light);
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+/* Tabel matriks panduan aksi */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background-color: var(--color-surface);
+}
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.matrix-table th {
+  background-color: var(--color-surface-alt);
+  color: var(--color-primary);
+  padding: 0.85rem 1rem;
+  border-bottom: 2px solid var(--color-border);
+  font-weight: 700;
+}
+
+.matrix-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+}
+
+.matrix-table tr:last-child td {
+  border-bottom: none;
+}
+
+.matrix-table tr:nth-child(even) td {
+  background-color: #fafcfb;
+}
+
+.matrix-table strong {
+  color: var(--color-text-main);
+  display: block;
+}
