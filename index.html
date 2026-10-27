@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Klimatika - Platform Edukasi Aksi Iklim (SDG 13).">
+  <meta name="description" content="Klimatika - Platform Edukasi Aksi Iklim (SDG 13). Kenali sains perubahan iklim, data kenaikan suhu global, dan aksi nyata gaya hidup rendah emisi.">
   <title>Klimatika - Beranda Edukasi Aksi Iklim</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -34,25 +34,142 @@
 
   <!-- Konten utama halaman -->
   <main id="main-content">
-    <!-- Bagian pengantar beranda -->
-    <section>
-      <div class="container">
-        <h1 class="section-title">Bumi Menghangat, Waktu Bergerak Cepat</h1>
-        <p class="section-desc">
-          Platform edukasi masyarakat mengenai Aksi Iklim (SDG 13). Menjelaskan sains pemanasan global, dampak di Indonesia, dan langkah nyata pengurangan emisi harian.
-        </p>
+    
+    <!-- Bagian hero banner -->
+    <section class="hero">
+      <div class="container hero-layout">
+        <div class="hero-text">
+          <p class="hero-note">Pembangunan Berkelanjutan: SDG 13 Aksi Iklim</p>
+          <h1 class="hero-title">
+            Bumi Menghangat, <span>Waktu Bergerak Cepat.</span>
+          </h1>
+          <p class="hero-desc">
+            Krisis iklim bukan ramalan masa depan, melainkan kenyataan yang tengah kita hadapi. Mari pahami sainsnya, kenali dampaknya di nusantara, dan ambil aksi nyata mulai hari ini.
+          </p>
+          <div class="btn-group">
+            <a href="edukasi.html" class="btn btn-primary">Pelajari Sains Iklim</a>
+            <a href="panduan.html" class="btn btn-secondary">Panduan Aksi Praktis</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-climate.svg" alt="Ilustrasi pelestarian bumi dengan turbin angin dan panel surya" width="460" height="360">
+        </div>
       </div>
     </section>
 
-    <!-- Bagian kerangka materi -->
-    <section class="section-alt">
+    <!-- Bagian indikator statistik krisis iklim -->
+    <section>
       <div class="container">
-        <h2 class="section-title">Jelajahi Modul Edukasi Iklim</h2>
-        <p class="section-desc">
-          Struktur materi disusun mulai dari pemahaman sains dasar hingga aksi mandiri sehari-hari.
-        </p>
+        <header>
+          <h2 class="section-title">Indikator Darurat Iklim Global</h2>
+          <p class="section-desc">
+            Data konsensus ilmiah internasional (IPCC AR6 dan BMKG) menunjukkan laju perubahan iklim yang belum pernah terjadi sebelumnya dalam sejarah modern.
+          </p>
+        </header>
+
+        <div class="grid-4">
+          <article class="stat-card">
+            <div class="stat-number warning">+1.15°C</div>
+            <h3 class="stat-label">Kenaikan Suhu Global</h3>
+            <p class="stat-detail">Rata-rata kenaikan suhu permukaan bumi dibandingkan masa pra-industri.</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-number">422 ppm</div>
+            <h3 class="stat-label">Konsentrasi CO₂ Udara</h3>
+            <p class="stat-detail">Tingkat karbon dioksida di atmosfer, tertinggi selama 2 juta tahun terakhir.</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-number warning">3.7 mm/th</div>
+            <h3 class="stat-label">Kenaikan Air Laut</h3>
+            <p class="stat-detail">Laju kenaikan permukaan air laut rata-rata global akibat pelelehan es kutub.</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-number">3000+</div>
+            <h3 class="stat-label">Bencana Cuaca Ekstrem</h3>
+            <p class="stat-detail">Rata-rata kejadian banjir, longsor, dan cuaca ekstrem di Indonesia per tahun.</p>
+          </article>
+        </div>
       </div>
     </section>
+
+    <!-- Bagian alur pembelajaran tiga modul utama -->
+    <section class="section-alt">
+      <div class="container">
+        <header>
+          <h2 class="section-title">Alur Pembelajaran Aksi Iklim</h2>
+          <p class="section-desc">
+            Materi edukatif yang disusun sistematis untuk memahami krisis iklim mulai dari sains dasar hingga langkah tindakan nyata sehari-hari.
+          </p>
+        </header>
+
+        <div class="grid-3">
+          <!-- Modul edukasi sains -->
+          <a href="edukasi.html" class="card card-clickable">
+            <div class="card-image-box">
+              <img src="images/greenhouse.svg" alt="Diagram mekanisme efek rumah kaca">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Mekanisme Efek Rumah Kaca dan Emisi</h3>
+              <p class="card-text">
+                Pahami perbedaan antara siklus cuaca alami dan perubahan iklim akibat aktivitas manusia, serta sumber utama gas rumah kaca.
+              </p>
+              <div class="card-footer">
+                <span class="btn btn-secondary btn-card">Buka Materi Edukasi</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Modul panduan aksi -->
+          <a href="panduan.html" class="card card-clickable">
+            <div class="card-image-box">
+              <img src="images/carbon-footprint.svg" alt="Ilustrasi konsep jejak karbon">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Gaya Hidup Rendah Karbon</h3>
+              <p class="card-text">
+                Langkah konkret yang dapat diterapkan langsung di rumah tangga: efisiensi listrik, pola makan bijak, dan mobilitas rendah emisi.
+              </p>
+              <div class="card-footer">
+                <span class="btn btn-secondary btn-card">Lihat Panduan Aksi</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Modul studi kasus artikel -->
+          <a href="artikel.html" class="card card-clickable">
+            <div class="card-image-box">
+              <img src="images/coastal-threat.svg" alt="Ilustrasi ancaman banjir rob di pesisir">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Dampak Nyata di Indonesia</h3>
+              <p class="card-text">
+                Fakta lapangan bagaimana krisis iklim telah mengikis pesisir Pantura Jawa dan mengubah kalender musim tanam petani lokal.
+              </p>
+              <div class="card-footer">
+                <span class="btn btn-secondary btn-card">Baca Studi Kasus</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian ajakan aksi -->
+    <section>
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Perubahan Besar Dimulai dari Langkah Nyata</h2>
+          <p class="cta-desc">
+            Jika jutaan orang melakukan pengurangan emisi secara konsisten, kita mampu memperlambat pemanasan global demi masa depan generasi penerus.
+          </p>
+          <a href="panduan.html" class="btn btn-accent">Pelajari Matriks Prioritas Aksi</a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Bagian footer situs -->

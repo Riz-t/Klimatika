@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400" fill="none">
+  <!-- Gradien Latar Belakang -->
+  <defs>
+    <linearGradient id="earthGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d6a4f"/>
+      <stop offset="50%" stop-color="#1b4332"/>
+      <stop offset="100%" stop-color="#081c15"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#52b788" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#2d6a4f" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Aura Pelindung Ozon -->
+  <circle cx="250" cy="210" r="150" fill="url(#glowGrad)"/>
+  <circle cx="250" cy="210" r="130" stroke="#74c69d" stroke-width="2" stroke-dasharray="6 6" opacity="0.6"/>
+
+  <!-- Bola Bumi -->
+  <circle cx="250" cy="210" r="110" fill="url(#earthGrad)"/>
+
+  <!-- Benua / Pulau Hijau -->
+  <path d="M190 150 Q220 130 250 150 Q270 170 240 190 Q210 200 190 180 Z" fill="#52b788" opacity="0.85"/>
+  <path d="M250 220 Q280 200 310 230 Q330 260 290 280 Q260 270 250 240 Z" fill="#40916c" opacity="0.85"/>
+  <path d="M170 230 Q200 240 190 270 Q160 280 155 250 Z" fill="#74c69d" opacity="0.75"/>
+
+  <!-- Turbin Angin Ramah Lingkungan (Kiri) -->
+  <rect x="138" y="100" width="4" height="70" fill="#e2fbd7" rx="2"/>
+  <circle cx="140" cy="100" r="5" fill="#ffffff"/>
+  <path d="M140 100 L115 75 M140 100 L165 75 M140 100 L140 135" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Turbin Angin Kecil (Kanan) -->
+  <rect x="360" y="120" width="3" height="55" fill="#e2fbd7" rx="1.5"/>
+  <circle cx="361.5" cy="120" r="4" fill="#ffffff"/>
+  <path d="M361.5 120 L345 100 M361.5 120 L380 100 M361.5 120 L361.5 145" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Panel Surya -->
+  <polygon points="310,290 350,285 365,310 320,315" fill="#1b4332" stroke="#52b788" stroke-width="2"/>
+  <line x1="330" y1="287" x2="342" y2="312" stroke="#52b788" stroke-width="1.5"/>
+  <line x1="315" y1="302" x2="357" y2="297" stroke="#52b788" stroke-width="1.5"/>
+
+  <!-- Pohon-Pohon Lestari -->
+  <circle cx="170" cy="300" r="16" fill="#2d6a4f"/>
+  <circle cx="160" cy="305" r="12" fill="#52b788"/>
+  <circle cx="180" cy="308" r="13" fill="#40916c"/>
+  <rect x="168" y="315" width="4" height="12" fill="#8d5b4c"/>
+
+  <!-- Daun Terbang / Simbol Harapan -->
+  <path d="M220 70 C235 65 240 80 230 90 C220 85 215 75 220 70 Z" fill="#74c69d"/>
+  <path d="M275 60 C290 55 295 70 285 80 C275 75 270 65 275 60 Z" fill="#52b788"/>
+  <path d="M305 85 C315 80 320 92 312 98 C305 95 302 88 305 85 Z" fill="#a7c957"/>
+
+  <!-- Target Panah SDG 13 -->
+  <path d="M80 340 H420" stroke="#52b788" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+</svg>

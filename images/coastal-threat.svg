@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320" fill="none">
+  <rect width="500" height="320" fill="#f0f7f6" rx="12"/>
+
+  <!-- Langit Cuaca Mendung dan Ekstrem -->
+  <path d="M0 0 H500 V160 H0 Z" fill="#e9ecef"/>
+  <ellipse cx="120" cy="50" rx="45" ry="25" fill="#ced4da" opacity="0.8"/>
+  <ellipse cx="200" cy="45" rx="65" ry="30" fill="#adb5bd" opacity="0.8"/>
+  <ellipse cx="360" cy="60" rx="55" ry="25" fill="#ced4da" opacity="0.8"/>
+
+  <!-- Air Laut Pasang dan Gelombang Erosi -->
+  <path d="M0 160 Q120 140 240 165 Q360 190 500 155 L500 320 L0 320 Z" fill="#2a9d8f" opacity="0.8"/>
+  <path d="M0 185 Q130 170 260 190 Q390 210 500 180 L500 320 L0 320 Z" fill="#264653"/>
+
+  <!-- Garis Pantai yang Tergerus atau Abrasi -->
+  <path d="M0 240 Q150 220 280 250 L300 320 L0 320 Z" fill="#cb997e"/>
+  
+  <!-- Pohon Mangrove Pelindung Pesisir -->
+  <circle cx="210" cy="210" r="18" fill="#2d6a4f"/>
+  <circle cx="230" cy="215" r="14" fill="#40916c"/>
+  <path d="M210 225 L200 255 M210 225 L215 255 M210 225 L225 250" stroke="#6f4e37" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Rumah Pesisir Terancam Banjir Rob -->
+  <polygon points="60,205 100,180 140,205" fill="#e76f51"/>
+  <rect x="70" y="205" width="60" height="35" fill="#f8f9fa"/>
+  <rect x="85" y="220" width="15" height="20" fill="#343a40"/>
+  <line x1="50" y1="235" x2="150" y2="235" stroke="#264653" stroke-width="3" stroke-dasharray="4 4"/>
+
+  <!-- Tanda Bahaya Kenaikan Air -->
+  <rect x="330" y="210" width="140" height="65" fill="#ffffff" rx="8" stroke="#e76f51" stroke-width="2"/>
+  <text x="400" y="235" font-family="sans-serif" font-size="12" font-weight="800" fill="#e76f51" text-anchor="middle">ROB DAN ABRASI</text>
+  <text x="400" y="255" font-family="sans-serif" font-size="11" font-weight="600" fill="#1f2937" text-anchor="middle">+0.8 cm/tahun</text>
+</svg>
